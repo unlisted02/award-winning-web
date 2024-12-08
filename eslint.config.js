@@ -9,6 +9,7 @@ export default [
   ...tailwind.configs["flat/recommended"],
   { ignores: ["dist"] },
   {
+    
     files: ["**/*.{js,jsx}"],
     languageOptions: {
       ecmaVersion: 2020,
